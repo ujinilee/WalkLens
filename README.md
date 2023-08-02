@@ -1,2 +1,2 @@
 # WalkLens
-XREAL 2023 XMC Booth WalkLens Team Project
+Unity Version 2020.3.48f1
