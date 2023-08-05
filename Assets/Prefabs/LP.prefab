@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1964536321475121435}
   - component: {fileID: 1964536321475121436}
   - component: {fileID: 1964536321475121437}
+  - component: {fileID: 8665166869633220465}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -91,7 +92,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 1964536321475121438}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.27
   m_Height: 2
   m_Direction: 1
@@ -108,6 +109,7 @@ GameObject:
   - component: {fileID: 1964536321745050329}
   - component: {fileID: 1964536321745050330}
   - component: {fileID: 1964536321745050331}
+  - component: {fileID: 7527532876736842452}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -187,11 +189,24 @@ CapsuleCollider:
   m_GameObject: {fileID: 1964536321745050332}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5000001
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!65 &7527532876736842452
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964536321745050332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9999999, y: 1.9999998, z: 1.0000001}
+  m_Center: {x: 0.00000005960463, y: -5.421011e-20, z: -0.00000008940696}
 --- !u!1 &1964536322616617596
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +249,10 @@ PrefabInstance:
     - target: {fileID: 102164565776855376, guid: 40f947ef6ebdefb458653e827b796033, type: 3}
       propertyPath: m_Name
       value: Cylinder (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 102164565776855379, guid: 40f947ef6ebdefb458653e827b796033, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 102164565776855380, guid: 40f947ef6ebdefb458653e827b796033, type: 3}
       propertyPath: m_RootOrder
@@ -289,3 +308,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40f947ef6ebdefb458653e827b796033, type: 3}
+--- !u!65 &8665166869633220465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964536321475121438}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000004, y: 2.0000005, z: 1.0000002}
+  m_Center: {x: 0.00000005960466, y: 0, z: -0.00000008940697}
