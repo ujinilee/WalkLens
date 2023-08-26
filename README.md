@@ -7,7 +7,7 @@
 ![xrec](https://github.com/ujinilee/XRecords/assets/82865552/52615e72-a366-4bcf-b6ab-afbab1f4fc03)
 ![image](https://github.com/ujinilee/XRecords/assets/82865552/b441c15e-1853-4ca1-8b7a-3a5b00c8c2ed)
 
-개발 환경: Unity Version 2020.3.48f1
+개발 환경: Unity 2020.3.48f1
 
 개발 기간: 23.08.02~ 23.08.16
 
